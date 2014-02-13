@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:gravity="center_vertical"
+  	android:background="@drawable/mainbg">
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="32dp">
+    <Button android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:background="@drawable/begin" android:id="@+id/button01" android:layout_height="wrap_content"></Button>
+    <Button android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:background="@drawable/choose" android:id="@+id/button02" android:layout_height="wrap_content"></Button>
+    <Button android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:background="@drawable/set" android:id="@+id/button03" android:layout_height="wrap_content"></Button>
+    <Button android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:background="@drawable/exit" android:id="@+id/button04" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+</RelativeLayout>

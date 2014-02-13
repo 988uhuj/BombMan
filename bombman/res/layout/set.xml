@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/setbg">
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/back" android:id="@+id/back" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginLeft="19dp" android:layout_marginBottom="19dp"></Button>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/back" android:layout_centerHorizontal="true">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/close" android:id="@+id/musicBtn" android:layout_margin="20dp"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/close2" android:id="@+id/soundBtn" android:layout_margin="20dp"></Button>
+    </LinearLayout>
+</RelativeLayout>
+

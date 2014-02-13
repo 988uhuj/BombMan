@@ -1,0 +1,95 @@
+com.dave.bombman.ChooseActivity$LevelPicture:
+    251:253:public ChooseActivity$LevelPicture(com.dave.bombman.ChooseActivity)
+    270:271:public void setTitle(java.lang.String)
+    280:281:public void setImageId(int)
+    284:284:public int getLockImageId()
+    289:290:public void setLockImageId(int)
+com.dave.bombman.LoadData:
+    70:70:public int getScore()
+    73:73:public int getTime()
+com.dave.bombman.MainActivity:
+    79:80:public void init()
+    296:325:public void backMenuDialog()
+com.dave.bombman.MainActivity$5
+com.dave.bombman.MainActivity$6
+com.dave.bombman.MenuActivity:
+    184:189:public void Release()
+com.dave.bombman.MyHandler:
+    216:217:public void Release()
+com.dave.bombman.R
+com.dave.bombman.R$anim
+com.dave.bombman.R$attr
+com.dave.bombman.R$drawable
+com.dave.bombman.R$id
+com.dave.bombman.R$layout
+com.dave.bombman.R$raw
+com.dave.bombman.R$string
+com.dave.bombman.app.Explorer:
+    public static final int MAXPOWER
+    437:440:public void delete(int)
+    443:443:public void update()
+com.dave.bombman.app.Player:
+    155:158:public boolean collidesWithBomb(com.dave.bombman.midp.Sprite)
+com.dave.bombman.app.Score:
+    33:44:public Score(android.content.Context,boolean)
+    49:50:public static void setScore(int)
+    66:72:public android.graphics.Bitmap ReadBitMap(android.content.Context,int)
+com.dave.bombman.app.SoundPlayer:
+    102:109:public static void playSound(int,int)
+    145:150:public static void changeFailMusic()
+    203:207:public static void Release()
+    209:212:public static void stopSound(int)
+com.dave.bombman.app.TileBg:
+    105:111:public void Release()
+com.dave.bombman.midp.Layer:
+    public abstract void paint(android.graphics.Canvas)
+com.dave.bombman.midp.LayerManager:
+    109:118:public void insert(com.dave.bombman.midp.Layer,int)
+    130:133:public com.dave.bombman.midp.Layer getLayerAt(int)
+    142:142:public int getSize()
+    155:156:public void remove(com.dave.bombman.midp.Layer)
+    206:222:public void paint(android.graphics.Canvas,int,int)
+com.dave.bombman.midp.Sprite:
+    public static final int TRANS_NONE
+    public static final int TRANS_ROT90
+    public static final int TRANS_ROT180
+    public static final int TRANS_ROT270
+    public static final int TRANS_MIRROR
+    public static final int TRANS_MIRROR_ROT90
+    public static final int TRANS_MIRROR_ROT180
+    public static final int TRANS_MIRROR_ROT270
+    private static final int INVERTED_AXES
+    private static final int X_FLIP
+    private static final int Y_FLIP
+    private static final int ALPHA_BITMASK
+    83:93:public Sprite(android.graphics.Bitmap)
+    163:215:public Sprite(com.dave.bombman.midp.Sprite)
+    346:346:public int getRawFrameCount()
+    724:725:public void setTransform(int)
+    728:728:public int getTransform()
+    1117:1203:public final boolean collidesWith(android.graphics.Bitmap,int,int,boolean)
+com.dave.bombman.midp.TiledLayer:
+    103:119:public int createAnimatedTile(int)
+    140:152:public void setAnimatedTile(int,int)
+    276:299:public void fillCells(int,int,int,int,int)
+    376:396:public void setStaticTileSet(android.graphics.Bitmap,int,int)
+com.dave.bombman.view.MenuView:
+    46:54:public void menuTouch(android.view.MotionEvent)
+com.kuguo.ad.JsonEntity
+com.kuguo.ad.KuguoAdsManager:
+    public static final int STYLE_KUZAI
+    public static final int STYLE_KUXUAN
+    public static final int APPTYPE
+    public static final int GAMETYPE
+    public void setCooId(android.content.Context,java.lang.String)
+    public void stopPushMessage(android.content.Context)
+    public void showAppList(android.content.Context)
+    public void setKuxuanPosition(int,int)
+    protected void startDetectTopApp(android.content.Context)
+    public void setDefaultAppType(android.content.Context,int)
+com.kuguo.ad.MainService:
+    public static void a(android.content.Context)
+com.kuguo.ad.b:
+    protected static boolean f(android.content.Context,java.lang.String)
+    public static void b(android.content.Context,int)
+com.kuguo.ad.by

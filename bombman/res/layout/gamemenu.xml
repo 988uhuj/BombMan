@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+  <RelativeLayout  
+  	android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayout"
+    android:gravity="center"
+    android:background="@drawable/menubg"
+    >
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/popReplay" android:background="@drawable/replay" android:layout_below="@+id/pause" android:layout_centerHorizontal="true" android:layout_alignRight="@+id/relativeLayout" android:layout_marginRight="20dp"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/sound" android:background="@drawable/sound" android:layout_below="@+id/popReplay"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pause" android:background="@drawable/pause" android:layout_alignParentTop="true"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/delete" android:background="@drawable/menu" android:layout_below="@+id/sound" android:layout_alignRight="@+id/relativeLayout" android:layout_marginRight="30dp" android:layout_centerHorizontal="true"></Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ android:background="@drawable/dlgbg"
+  >
+  <LinearLayout 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="10dp">
+
+	<ImageView 
+	android:id="@+id/star2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/star0"
+	android:layout_gravity="center_horizontal"
+	android:visibility="invisible"
+	/>
+	</LinearLayout>
+	 <ImageView
+	android:id="@+id/dialogPic2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/dialogpic1"
+	android:layout_centerHorizontal="true"
+	/>
+  <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginBottom="16dp">
+      <Button android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:background="@drawable/replay" android:id="@+id/replayButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+      <Button android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:background="@drawable/menu" android:id="@+id/menuButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+      <Button android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:background="@drawable/next" android:id="@+id/nextButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+      
+  </LinearLayout>
+</RelativeLayout>
